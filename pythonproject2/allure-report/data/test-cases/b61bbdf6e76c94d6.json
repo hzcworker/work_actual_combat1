@@ -1,0 +1,58 @@
+{
+  "uid" : "b61bbdf6e76c94d6",
+  "name" : "test_data[11-15]",
+  "historyId" : "pytest:study_pytest.test_pytest.TestWuhan2021#test_data[11-15]",
+  "time" : {
+    "start" : 1613194770889,
+    "stop" : 1613194770892,
+    "duration" : 3
+  },
+  "status" : "failed",
+  "statusMessage" : "assert 12 == 15\n +  where 12 = inc(11)",
+  "statusTrace" : "self = <test_pytest.TestWuhan2021 object at 0x0000000003215760>, data = 11, expect = 15\n\n    @pytest.mark.parametrize(\"data,expect\", [(1, 2), (3, 4), (11, 15)])\n    def test_data(self, data, expect):\n>       assert inc(data) == expect\nE       assert 12 == 15\nE        +  where 12 = inc(11)\n\nstudy_pytest\\test_pytest.py:30: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200703UCXE"
+  }, {
+    "name" : "testClass",
+    "value" : "study_pytest.test_pytest.TestWuhan2021"
+  }, {
+    "name" : "package",
+    "value" : "study_pytest.test_pytest.TestWuhan2021"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b61bbdf6e76c94d6.json",
+  "parameterValues" : [ ]
+}
