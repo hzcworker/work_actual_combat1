@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="6" time="0.173" timestamp="2021-02-13T13:39:30.889765" hostname="PC-20200703UCXE"><testcase classname="study_pytest.test_pytest" name="test_answer" time="0.003"><failure message="assert 4 == 5&#10; +  where 4 = inc(3)">def test_answer():
+&gt;       assert inc(3) == 5
+E       assert 4 == 5
+E        +  where 4 = inc(3)
+
+study_pytest\test_pytest.py:10: AssertionError</failure></testcase><testcase classname="study_pytest.test_pytest.TestWuhan2021" name="test_demo_1" time="0.002" /><testcase classname="study_pytest.test_pytest.TestWuhan2021" name="test_demo_2" time="0.002"><failure message="assert 3 == 4&#10; +  where 3 = inc(2)">self = &lt;test_pytest.TestWuhan2021 object at 0x000000000313C670&gt;
+
+    @pytest.mark.fail
+    def test_demo_2(self):
+&gt;       assert inc(2) == 4
+E       assert 3 == 4
+E        +  where 3 = inc(2)
+
+study_pytest\test_pytest.py:23: AssertionError</failure></testcase><testcase classname="study_pytest.test_pytest.TestWuhan2021" name="test_data[1-2]" time="0.003" /><testcase classname="study_pytest.test_pytest.TestWuhan2021" name="test_data[3-4]" time="0.002" /><testcase classname="study_pytest.test_pytest.TestWuhan2021" name="test_data[11-15]" time="0.003"><failure message="assert 12 == 15&#10; +  where 12 = inc(11)">self = &lt;test_pytest.TestWuhan2021 object at 0x0000000003215760&gt;, data = 11, expect = 15
+
+    @pytest.mark.parametrize("data,expect", [(1, 2), (3, 4), (11, 15)])
+    def test_data(self, data, expect):
+&gt;       assert inc(data) == expect
+E       assert 12 == 15
+E        +  where 12 = inc(11)
+
+study_pytest\test_pytest.py:30: AssertionError</failure></testcase></testsuite></testsuites>

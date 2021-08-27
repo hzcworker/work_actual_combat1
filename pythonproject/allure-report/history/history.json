@@ -1,0 +1,119 @@
+{
+  "pytest:study_pytest.test_pytest.TestWuhan2021#test_demo_2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ed42af05993ba1",
+      "status" : "failed",
+      "statusDetails" : "assert 3 == 4\n +  where 3 = inc(2)",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770891,
+        "duration" : 2
+      }
+    } ]
+  },
+  "pytest:study_pytest.test_pytest.TestWuhan2021#test_data[3-4]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65d5686dc47d0872",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770891,
+        "duration" : 2
+      }
+    } ]
+  },
+  "pytest:study_pytest.test_pytest.TestWuhan2021#test_demo_1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6975597563b515f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770891,
+        "duration" : 2
+      }
+    } ]
+  },
+  "pytest:study_pytest.test_pytest.TestWuhan2021#test_data[1-2]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fe5136d85fb81ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770892,
+        "duration" : 3
+      }
+    } ]
+  },
+  "pytest:study_pytest.test_pytest#test_answer" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9da2d158a1cca0f",
+      "status" : "failed",
+      "statusDetails" : "assert 4 == 5\n +  where 4 = inc(3)",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770892,
+        "duration" : 3
+      }
+    } ]
+  },
+  "pytest:study_pytest.test_pytest.TestWuhan2021#test_data[11-15]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b61bbdf6e76c94d6",
+      "status" : "failed",
+      "statusDetails" : "assert 12 == 15\n +  where 12 = inc(11)",
+      "time" : {
+        "start" : 1613194770889,
+        "stop" : 1613194770892,
+        "duration" : 3
+      }
+    } ]
+  }
+}
